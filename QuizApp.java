@@ -22,7 +22,13 @@ public class QuizApp {
             System.out.println("Correct!");
         }
         else {
-            System.out.println("What planet are you living on??");
+            System.out.println("2nd chance: what color is the sky");
+        String answer6 = kboard.nextLine();
+        if (answer6.equals("blue")) {
+            //give them a point
+            score++;
+            System.out.println("Correct!");
+        }
         }
         //question 2 
         System.out.println("what color is the ocean");
@@ -33,7 +39,13 @@ public class QuizApp {
             System.out.println("Correct!");
         }
         else {
-            System.out.println("What planet are you living on??");
+            System.out.println("2nd chance: what color is the ocean");
+        String answer7 = kboard.nextLine();
+        if (answer7.equals("blue")) {
+            //give them a point
+            score++;
+            System.out.println("Correct!");
+        }
         }
         //question 3
          System.out.println("What color is drinking water");
@@ -44,7 +56,13 @@ public class QuizApp {
             System.out.println("Correct!");
         }
         else {
-            System.out.println("You don't drink clear water?");
+            System.out.println("2nd chance: what color is drinking water");
+        String answer8 = kboard.nextLine();
+        if (answer8.equals("clear")) {
+            //give them a point
+            score++;
+            System.out.println("Correct!");
+        }
         }
         //question 4
          System.out.println("What period was this code written in?");
@@ -55,7 +73,13 @@ public class QuizApp {
             System.out.println("Correct!");
         }
         else {
-            System.out.println("I'm not suprised you don't know");
+            System.out.println("2nd chance: what period was this written in?");
+        String answer9 = kboard.nextLine();
+        if (answer9.equals("2")) {
+            //give them a point
+            score++;
+            System.out.println("Correct!");
+        }
         }
         //question 5
          System.out.println("what continent is the USA on");
@@ -66,12 +90,17 @@ public class QuizApp {
             System.out.println("Correct!");
         }
         else {
-            System.out.println("You really don't know?");
+            System.out.println("2nd chance: what continent is the USA on");
+        String answer10 = kboard.nextLine();
+        if (answer10.equals("North America")) {
+            //give them a point
+            score++;
+            System.out.println("Correct!");
         }
         System.out.println("Congrats your total amount of correctly answered questions are " +score);
-        //Question 2-5 - done
+//Question 2-5 - done
         
         //tell user their score - done
-    }
-    
+        }
+}
 }
